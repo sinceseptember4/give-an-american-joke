@@ -1,8 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Jokes from './jokes.json';
 
 function App() {
+const jokes =JSON.parse(JSON.stringify(Jokes.jokes));
+const jokesLength= jokes.length;
+let randnum = Math.floor( Math.random() * jokesLength );
+console.log(jokes[randnum].joke);
   return (
     <div className="App">
       <header className="App-header">
