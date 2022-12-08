@@ -1,16 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import logo from './logo.svg';
 import './App.css';
-import Jokes from './jokes.json';
-import Home from "./ component/home";
-import Api from "./ component/api";
-import Random from "./ component/random";
+import Jokes from './component/jokes.json';
+import Home from "./component/home";
+import {Api} from "./component/api";
+import Random from "./component/random";
+
 function App() {
-const jokes =JSON.parse(JSON.stringify(Jokes.jokes));
-const jokesLength= jokes.length;
-let randnum = Math.floor( Math.random() * jokesLength );
-console.log(jokes[randnum].joke);
+
   return (
     <BrowserRouter>
       <Routes>
