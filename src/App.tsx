@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Jokes from './component/jokes.json';
 import Home from "./component/home";
 import {Api} from "./component/api";
 import Random from "./component/random";
