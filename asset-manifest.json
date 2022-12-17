@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/give-an-american-joke/static/css/main.073c9b0a.css",
+    "main.js": "/give-an-american-joke/static/js/main.5fd5e2ba.js",
+    "static/js/787.0a687bf7.chunk.js": "/give-an-american-joke/static/js/787.0a687bf7.chunk.js",
+    "index.html": "/give-an-american-joke/index.html",
+    "main.073c9b0a.css.map": "/give-an-american-joke/static/css/main.073c9b0a.css.map",
+    "main.5fd5e2ba.js.map": "/give-an-american-joke/static/js/main.5fd5e2ba.js.map",
+    "787.0a687bf7.chunk.js.map": "/give-an-american-joke/static/js/787.0a687bf7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5fd5e2ba.js"
+  ]
+}
