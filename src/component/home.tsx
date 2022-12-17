@@ -5,6 +5,7 @@ const Home = () => {
   const jokesLength= jokes.length;
   let randnum = Math.floor( Math.random() * jokesLength );
   let joke = jokes[randnum].joke;
+  const title = jokes[randnum].title;
   let check =true ;
   joke.replace('\n', '<br/>');
   while (check) {
@@ -17,10 +18,15 @@ const Home = () => {
     
   }
 
+  const reload = () => {
+    window.location.reload()
+  };
   
   return (
     <>
+      <div>タイトル: {title}</div>
       <div dangerouslySetInnerHTML={{__html: joke}}></div>
+      <button onClick= {reload}>次のジョーク</button>
     </>
   );
 };
